@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Approach
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Visual Size Comparison
+- Instead of boring cards, we show skips as **vertical bars** — taller bars mean **bigger skips**.
+- Instantly see which skip is larger without reading numbers.
 
-## Available Scripts
+##  Two Simple Sections
+- **Top Section:** Shows all skips as colored bars with prices.
+- **Bottom Section:** Shows details **only after** you select a skip.
 
-In the project directory, you can run:
+## Smart Selection
+- Click any skip bar to **select it**.
+- Selected skip turns **blue** with a green "**Selected**" tag.
+- Details **automatically appear below**.
 
-### `npm start`
+## Mobile-Friendly Magic
+- On phones: Skip bars wrap into **two rows**.
+- **Size labels adjust** automatically.
+- Everything stays **easy to touch/select**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Helpful Visual Cues
+- **Bouncing hand icon 👆** when nothing is selected.
+- **Smooth animations** when you hover or select.
+- **Color changes** show what's interactive.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Clear Information
+- Only shows details **after selection**.
+- **Simple price-size comparison** at a glance.
+- Important info (size/price) in **big text**.
 
-### `npm test`
+## Loading States
+- **Spinner animation** while loading.
+- Simple **error messages** if something goes wrong.
+- **"Try Again" button** for errors.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Professional Look
+- Modern **blue color scheme**.
+- **Soft shadows** and **rounded corners**.
+- **Clean typography** with the Inter font.
+- Plenty of **breathing space** between elements.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This design makes **skip selection visual and intuitive** — you can instantly compare sizes, prices, and hire periods without reading through lots of text. The interface guides you naturally from selection to booking.
